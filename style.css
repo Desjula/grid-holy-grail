@@ -18,3 +18,34 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: grid;
+    gap: 20px;
+}
+
+.hlavicka{
+height: 200px;
+width: 100%;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    gap: 20px;
+}
+
+.hlavni{
+    order: 1;
+}
+
+.pravy{
+order: 2;
+}
+
+.levy{
+    order: 0;
+}
+.paticka{
+    height: 100px;
+    width: 100%;
+}
